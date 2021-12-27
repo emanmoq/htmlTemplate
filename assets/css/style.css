@@ -1,11 +1,120 @@
 
 body{
-    background-color: #EEF3FA;
     font-size: 16px;
-    font-weight: 400;
-    direction: rtl;
-    text-align: right;
+ background-color: #eee;;
+    text-align: left;
     background-repeat: no-repeat;
     background-size: cover;
+    color:#000
+}
+.agreementSection {
+    width: 220mm;
+  min-height: 297mm;
+    margin: 10mm auto;
+    background: white;
+  padding:20px;
 
+  border:1px solid #ccc
+  }
+  h1,h2,h3,h4{
+      font-weight: bold;;
+  }
+@page {
+    size: A4;
+    margin: 0;
+  }
+  @media print {
+    html, body {
+      width: 210mm;
+      height: 297mm;        
+    }
+.agreementSection{
+    margin: 0;
+    border: initial;
+    border-radius: initial;
+    width: initial;
+    min-height: initial;
+    box-shadow: initial;
+    background: initial;
+    page-break-after: always;
+
+}
+  }
+table{
+    width:100%;
+}
+table td{
+    vertical-align: top;
+}
+
+.clientTable{
+    width:100%;
+}
+.clientTable td{
+    border:1px solid #000;
+    padding:5px;
+    font-weight: bold;
+    text-align: center;
+  width:20%;
+  font-size:12pt;
+}
+.tableSection{
+    padding-top:50px;
+}
+.agreementTitle{
+    font-size:14pt;
+    text-decoration: underline;
+    color:#000;
+    font-weight: bold;
+    margin-bottom:30px;
+ 
+}
+.agreementSection p,.agreementSection span{
+    margin:0;
+    font-size:11pt;
+    line-height: 1.5;
+}
+.agreementSection h3{
+    font-weight: bold;
+    font-size:12pt;
+    display: inline-block;
+    margin-bottom: 0;
+}
+.tel,.telAR{
+    margin:0;
+padding:0;
+list-style-type: none;
+}
+.AgreementClientInfo li,.AgreementClientInfo{
+    margin:0;
+padding:0;
+list-style-type: none;
+}
+.tel li,.telAR li{
+    margin:0;
+padding:0;
+list-style-type: none;
+}
+.tel li span{
+    margin-right:50px;
+}
+.telAR li span{
+    margin-left:50px;
+}
+.telAR{
+    margin-top:20px;
+}
+.agreementTable{
+    width:100%;  
+}
+.agreementTable td{
+width:50%;
+padding :10px 0
+}
+.SecondOBLIGATIONSList li{
+    list-style-type:decimal;
+    margin-top:20px;
+}
+.agreementSection span.ListNumber{
+    margin-right:20px;
 }
